@@ -86,14 +86,6 @@ function downloadFiles() {
   }
 }
 
-function checkDL() {
-  sys.debug('checkDL - dlCount: ' + dlCount);
-  while (dlCount >= MAX_DOWNLOADS) {
-    setTimeout(function() {}, 1000);
-  }
-  return;
-}
-
 function getFile(uri, primary, album, title) {
   var dirpath = path.join(saveRoot, primary, album);
   var filepath = path.join(dirpath, title + '.mp3');
