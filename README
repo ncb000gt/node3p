@@ -11,6 +11,7 @@ How to Use It
 * Install the required libs
 * Buy some tunes
 * node node3p <path to download to> <amz file to download from>
+* Go to http://www.amazon.com/gp/dmusic/after_download_manager_install.html
 * Profit
 
 
@@ -32,7 +33,7 @@ object2xml
 Special Thanks
 ===============
 
-Need to say thanks to the Pymazon people. They made this easy by doing the hard stuff of getting the IV and KEY values for decrypting the AMZ file. Also, they worked out the process for actually getting sensible data. This wouldn't be out now if they hadn't gotten their tool to where it is now.
+Need to say thanks to the clamz people. They made this easy by doing the hard stuff of decrypting the AMZ file. Also to the Pymazon people, they worked out the process for actually getting sensible data. This wouldn't be out now if they hadn't.
 
 
 License
