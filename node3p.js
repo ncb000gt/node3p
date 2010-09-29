@@ -8,7 +8,7 @@ var sys = require('sys')
 ,url = require('url')
 ,request = require('request')
 ,path = require('path')
-,fshelp = require('./lib/fshelper.js');
+,fshelp = require('./lib/file');
 
 var MAX_DOWNLOADS = 5;
 var KEY = '\x29\xAB\x9D\x18\xB2\x44\x9E\x31';
