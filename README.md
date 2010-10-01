@@ -24,10 +24,9 @@ This is completely in alpha stages. The data downloads but the code is complete 
 Required/Included Libs
 ===============
 
-request
-base64
-node-xml
-object2xml
+npm install [request](http://github.com/mikeal/node-utils/)
+npm install [base64](http://github.com/pkrumins/node-base64/)
+npm install [xml2js](http://github.com/maqr/node-xml2js/)
 
 
 Special Thanks
