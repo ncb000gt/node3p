@@ -10,7 +10,7 @@ How to Use It
 * Install NodeJS
 * Install the required libs
 * Buy some tunes
-* node node3p <path to download to> <amz file to download from>
+* node node3p [ path to download to ] [ amz file to download from ]
 * Go to http://www.amazon.com/gp/dmusic/after_download_manager_install.html
 * Profit
 
