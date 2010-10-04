@@ -1,7 +1,7 @@
 {
   "name": "node3p",
   "description": "An Amazon MP3 downloader for NodeJS.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Nick Campbell (http://github.com/ncb000gt)",
   "bin": { "node3p": "./node3p" },
   "engines": { "node": ">= 0.1.100" },

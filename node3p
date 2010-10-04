@@ -77,17 +77,25 @@ function downloadFiles() {
     if (dlCount < MAX_DOWNLOADS) {
       var o = toDownload.pop();
       dlCount++;
+      sys.puts('primary: '+o.primary);
+      sys.puts('album: '+o.album);
+      sys.puts('title: '+o.title);
       getFile(o.uri, o.primary, o.album, o.title);
     }
     setTimeout(downloadFiles, 1000);
   } else {
-    sys.puts('No more files to enqueued for download. Finishing the download.');
+    sys.puts('No more files to enqueue for download. Finishing downloads.');
   }
 }
 
 function getFile(uri, primary, album, title) {
   var dirpath = path.join(saveRoot, primary, album);
   var filepath = path.join(dirpath, title + '.mp3');
+  if (path.existsSync(filepath)) {
+      dlCount--;
+      sys.puts("File '" + filepath + "' exists. Skipping download.");
+      return;
+  }
   sys.puts("Writing '"+filepath+"'...");
   fshelp.mkdirs(dirpath, 0777, function(err) {
 		  if (err) throw err;
@@ -104,7 +112,7 @@ function getFile(uri, primary, album, title) {
 					    });
 				 });
 			    request({uri: uri, responseBodyStream: s}, function (err, response, stream) {
-				      if (err) sys.puts('there was a problem scotty');
+				      if (err) sys.puts('Error: ' + err);
 				    });
 			  });
 
