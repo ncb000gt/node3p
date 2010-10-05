@@ -1,0 +1,24 @@
+!!! 5
+html(lang="en")
+  head
+    title Node3p Web Downloader
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js")
+    script(src="/js/socket.io/socket.io.js")
+    script io.setPath('/js/socket.io/socket.io');
+    script(src="/js/site.js")
+    link(href="/css/core.css",rel="stylesheet",type="text/css")
+  body
+    #header
+      h1 Node3p Web Downloader
+    #content
+      form(action="/",method="POST",enctype="multipart/form-data")
+        fieldset
+          input(type="file",id="file",name="file")
+          input(type="submit",value="Download")
+    #footer
+      p
+        | Node3p was developed by Nick Campbell (
+        a(href="http://twitter.com/ncb000gt") @ncb000gt
+        | ). 
+        a(href="http://github.com/ncb000gt/node3p") Node3p is open sourced 
+        | under the MIT license. Enjoy.
