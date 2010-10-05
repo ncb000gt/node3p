@@ -1,7 +1,7 @@
 Node3P
 ===============
 
-This is a tool to let you download music you've purchased through Amazon MP3 to your computer. It runs on NodeJS and some additional code. The functionality is mainly a port of the Pymazon work.
+This is a tool to let you download music you've purchased through Amazon MP3 to your computer. It runs on NodeJS and some additional code.
 
 
 How to Use It
@@ -48,4 +48,6 @@ Need to say thanks to the clamz people. They made this easy by doing the hard st
 License
 ===============
 
-see license file
+It is very loosely based on the work done for Pymazon in that it shares ideas on decrypting the amz file. It was inspiration for this project. As such, I'll follow the wishes of the Pymazon author and use the GPLv3 license for this tool/library.
+
+For specifics please see the license file.

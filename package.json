@@ -12,8 +12,7 @@
    },
    "licenses": [
      {
-        "type": "MIT",
-        "url": "http://www.opensource.org/licenses/mit-license.php" 
+        "type": "GPLv3"
      }
    ],
    "bugs": {
