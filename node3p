@@ -5,4 +5,8 @@ var sys = require('sys')
 
 sys.puts('Node3p - An Amazon MP3 downloader.');
 
-node3p.process(process.argv[2], process.argv[3]);
+var n3p = new node3p.Node3p(process.argv[2]);
+n3p.on('end',  function(files) {
+	    sys.puts('All files downloaded.');
+	  });
+n3p.parse(process.argv[3]);
