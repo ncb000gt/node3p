@@ -9,8 +9,10 @@ How to Use It
 
 * Install NodeJS
 * Install the required libs
+** From source, just clone this and type `npm install` from the cloned directory 
+** From npm, type `npm install node3p` 
 * Buy some tunes
-* node node3p [ path to download to ] [ amz file to download from ]
+* node3p [ path to download to ] [ amz file to download from ]
 * Go to http://www.amazon.com/gp/dmusic/after_download_manager_install.html
 * Profit
 
@@ -21,12 +23,20 @@ Alpha Warning
 This is completely in alpha stages. The data downloads but the code is complete and utter crap. You'll likely want to look at it like you and eclipse or your eyeballs may melt. Assuming you are crazy enough to try this, please throw bugs at me like you might a can of Redbull and I'll try my best to hammer through them. Also, patches are very welcome.
 
 
-Required/Included Libs
+Dependencies
 ===============
 
 * npm install [request](http://github.com/mikeal/node-utils/)
 * npm install [base64](http://github.com/pkrumins/node-base64/)
 * npm install [xml2js](http://github.com/maqr/node-xml2js/)
+
+
+Interfaces
+===============
+
+Since people don't tend to like using the CLI there now exist front ends to this tool.
+
+* [node3p-web](http://github.com/ncb000gt/node3p-web/): This is a web interface to `node3p`.
 
 
 Special Thanks

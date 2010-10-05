@@ -1,7 +1,8 @@
 {
   "name": "node3p",
   "description": "An Amazon MP3 downloader for NodeJS.",
-  "version": "0.1.1",
+  "main": "./lib/node3p",
+  "version": "0.2.0",
   "author": "Nick Campbell (http://github.com/ncb000gt)",
   "bin": { "node3p": "./node3p" },
   "engines": { "node": ">= 0.1.100" },
@@ -14,5 +15,13 @@
         "type": "MIT",
         "url": "http://www.opensource.org/licenses/mit-license.php" 
      }
-   ]
+   ],
+   "bugs": {
+     "web" : "http://github.com/ncb000gt/node3p/issues"
+   },
+   "dependencies": {
+     "base64": ">=1.0.1",
+     "request": ">=0.10.0",
+     "xml2js": ">=0.1.5"
+   }
 }
