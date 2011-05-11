@@ -51,3 +51,9 @@ License
 It is very loosely based on the work done for Pymazon in that it shares ideas on decrypting the amz file. It was inspiration for this project. As such, I'll follow the wishes of the Pymazon author and use the GPLv3 license for this tool/library.
 
 For specifics please see the license file.
+
+
+Trademarks?
+============
+
+Node.js™ is an official trademark of Joyent. This module is not formally related to or endorsed by the official Joyent Node.js open source or commercial project
